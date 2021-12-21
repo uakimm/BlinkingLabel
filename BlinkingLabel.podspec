@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BlinkingLabel'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BlinkingLabel.'
+  s.summary          = ' my first pod lib try'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,14 +21,15 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/shengbin zhou/BlinkingLabel'
+  s.homepage         = 'https://github.com/UAKimm/BlinkingLabel'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'shengbin zhou' => 'shengbinzhou@gmail.com' }
-  s.source           = { :git => 'https://github.com/shengbin zhou/BlinkingLabel.git', :tag => s.version.to_s }
+  s.author           = { 'Kim Lin' => 'kimmlinng@gmail.com' }
+  s.source           = { :git => 'https://github.com/UAKimm/BlinkingLabel.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
+  s.swift_versions = '5.3'
 
   s.source_files = 'BlinkingLabel/Classes/**/*'
   
